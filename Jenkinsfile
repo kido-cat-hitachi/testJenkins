@@ -8,7 +8,7 @@ pipeline {
 //                 sh 'sudo ./setup_k6.sh'
 //                 echo 'Running K6 performance tests...'
 //                 sh 'k6 run ./index.js'
-                 sh "echo Hello from the shell"
+//                  sh "echo Hello from the shell"
             }
         }
     }
