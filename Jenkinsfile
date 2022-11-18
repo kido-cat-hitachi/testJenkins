@@ -6,7 +6,7 @@ pipeline {
                 // echo 'Installing k6'
                 // sh 'sudo chmod +x setup_k6.sh'
                 echo 'Check version K6'
-                sh 'k6 version'
+                k6 version
                 echo 'Running K6 performance tests...'
                 sh 'k6 run index.js'
             }
