@@ -5,10 +5,10 @@ pipeline {
             steps {
                 echo 'Check k6 version'
                 bat 'k6 version'
-//                 sh 'sudo ./setup_k6.sh'
-//                 echo 'Running K6 performance tests...'
-//                 sh 'k6 run ./index.js'
-//                  sh "echo Hello from the shell"
+                // bat 'sudo ./setup_k6.sh'
+                echo 'Running K6 performance tests...'
+                bat 'k6 run ./index.js'
+                //  "echo Hello from the shell"
             }
         }
     }
