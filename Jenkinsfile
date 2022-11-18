@@ -4,7 +4,7 @@ pipeline {
         stage('Performance Testing') {
             steps {
                 echo 'Check git version'
-                sh 'git version'
+                git version
                 // echo 'install '
                 // echo 'Check version K6'
                 // k6 version
